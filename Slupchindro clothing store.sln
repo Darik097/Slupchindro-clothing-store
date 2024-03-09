@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Slupchindro clothing store", "Slupchindro clothing store\Slupchindro clothing store.pyproj", "{6EB5347B-7295-4064-8684-DE2AC1E52F05}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB5347B-7295-4064-8684-DE2AC1E52F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB5347B-7295-4064-8684-DE2AC1E52F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB5347B-7295-4064-8684-DE2AC1E52F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB5347B-7295-4064-8684-DE2AC1E52F05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3323AC2C-E38F-4EE7-ADFE-EE0CA22904C2}
+	EndGlobalSection
+EndGlobal
