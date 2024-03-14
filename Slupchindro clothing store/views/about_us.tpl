@@ -2,11 +2,22 @@
 <html>
   <head>
     <title>About Us - AnForce</title>
-    <link rel="stylesheet" type="text/css" href="static/content/about_us_style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="static/content/about_us_style.css"
+    />
   </head>
   <body>
-    <img src="static/images/top_photo.png" class="header-image" />
-    <div class="quote">"Quality clothing for every occasion"</div>
+    <div class="header-container">
+      <img src="static/images/top_photo.png" class="header-image" />
+      <div class="quote">
+        <p class="quote-text">
+          "Add additional guarantee of authenticity isn't an additional
+          guarantee of quality."<br />Slupchaino
+        </p>
+      </div>
+    </div>
 
     <div class="content">
       <h1>About Us</h1>
@@ -38,12 +49,17 @@
       </p>
 
       <a href="https://www.anforce.com" class="link-text"
-        >VISIT OUR CORPORATE SITE (ENGLISH ONLY)</a
+        >VISIT OUR CORPORATE SITE</a
       >
       <div class="separator"></div>
 
       <h2 class="shop-title">SHOP OUR BRAND</h2>
-      <div class="brand-images">
+      <div class="scroll-container">
+        <div class="product">
+          <img src="static/images/mini.jpg" />
+          <a href="#" class="link-text">Mini Dress</a>
+          <div class="separator"></div>
+        </div>
         <div class="product">
           <img src="static/images/polo_for_men.png" />
           <a href="#" class="link-text">Polo For Men</a>
@@ -55,13 +71,18 @@
           <div class="separator"></div>
         </div>
         <div class="product">
-          <img src="static/images/dolce_gabbana.png" />
-          <a href="#" class="link-text">DOLCE & GABBANA</a>
+          <img src="static/images/coat.jpg" />
+          <a href="#" class="link-text">Coat</a>
           <div class="separator"></div>
         </div>
         <div class="product">
-          <img src="static/images/louisvuitton.png" />
-          <a href="#" class="link-text">Louis Vuitton</a>
+          <img src="static/images/outfit.jpg" />
+          <a href="#" class="link-text">Outfit</a>
+          <div class="separator"></div>
+        </div>
+        <div class="product">
+          <img src="static/images/wardrobe.jpg" />
+          <a href="#" class="link-text">Wardrobe</a>
           <div class="separator"></div>
         </div>
       </div>
