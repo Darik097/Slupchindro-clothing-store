@@ -55,6 +55,7 @@
     <Content Include="static\images\outfit.jpg" />
     <Content Include="static\images\polo_for_men.png" />
     <Content Include="static\images\polo_for_women.png" />
+    <Content Include="static\images\suit.png" />
     <Content Include="static\images\top_photo.png" />
     <Content Include="static\images\wardrobe.jpg" />
     <Content Include="static\scripts\bootstrap.js" />
@@ -75,6 +76,7 @@
     <Content Include="views\about_us.tpl" />
     <Content Include="views\index.tpl" />
     <Content Include="views\layout.tpl" />
+    <Content Include="views\navbar.tpl" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env2\">

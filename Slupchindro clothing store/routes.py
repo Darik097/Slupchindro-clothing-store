@@ -4,6 +4,7 @@ Routes and views for the bottle application.
 
 from bottle import route, view
 from datetime import datetime
+from bottle import static_file
 
 @route('/')
 @route('/home')
@@ -23,3 +24,7 @@ def about():
         message='Your application description page.',
         year=datetime.now().year
     )
+
+@route('/static/<filename:path>')
+def send_static(filename):
+    return static_file(filename, root='static')
